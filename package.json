@@ -1,0 +1,21 @@
+{
+  "name": "gm-motors",
+  "version": "1.0.0",
+  "description": "Gm motor UZB",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc"
+  },
+  "author": "RAY + STAIN",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
